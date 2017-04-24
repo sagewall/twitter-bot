@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sagewall/twitter-bot/issues"
   },
-  "homepage": "https://github.com/sagewall/twitter-bot#readme"
+  "homepage": "https://github.com/sagewall/twitter-bot#readme",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
 }
