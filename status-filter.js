@@ -12,7 +12,7 @@ const term = ' ';
 client.stream('statuses/filter', {locations: '-105.4,39.13,-105.05,39.91'}, (stream) => {
     stream.on('data', (tweet) => {
         if (tweet.text.toLowerCase().includes(term)) {
-            console.log(tweet.text, tweet.coordinates, tweet.place.name);
+            console.log(tweet.text, ' - ', tweet.place.name);
         }
     });
 
